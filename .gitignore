@@ -1,0 +1,21 @@
+# This program is NOT open source, so there is no source code but executable files only.
+
+# DS_store
+.DS_Store
+
+# Source Code
+*/*
+*.h
+*.hpp
+*.c
+*.cpp
+
+# Executable and image files
+!main/*
+!input-data/*
+
+# Images
+input-data/*/
+
+# Cmake Files
+CMakeLists.txt
